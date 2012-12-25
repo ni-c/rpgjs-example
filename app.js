@@ -7,7 +7,7 @@ requirejs.config({
   nodeRequire: require
 });
 
-requirejs(['rpgjs'], function(rpgjs) {
+requirejs(['./rpgjs'], function(rpgjs) {
 rpgjs.onConnect(1337, function(rpg) {
 
   rpg.start(function() {
