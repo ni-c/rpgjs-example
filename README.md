@@ -7,6 +7,7 @@ This is an example for the rpgjs framework.
 ```bash
 git clone git@github.com:ni-c/rpgjs-example.git rpgjs-example
 cd rpgjs-example
+git submodule init
 git submodule update
 npm install
 ```
