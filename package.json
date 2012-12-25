@@ -3,9 +3,10 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node app.js"
+    "start": "node vanaja"
   },
   "dependencies": {
+  	"requirejs": "2.1.2",
     "rpgjs": "https://github.com/ni-c/rpgjs/tarball/master"
   }
 }
